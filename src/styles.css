@@ -1,4 +1,4 @@
-.title{
+.title {
   background: url(http://blog.canvascorpbrands.com/wp-content/uploads/2016/04/nicolette-recipe-book-step-1.jpg);
   background-size: cover;
   background-position: center;
@@ -19,15 +19,20 @@
   border: 1px solid white;
 }*/
 
-.titleWords{
+.outside-titleWords {
+  /*border-style: double;*/
+  border: 2px solid white;
+  padding: 25px;
+  color: white;
+
+}
+.titleWords {
     position: absolute;
-    left:900px;
+    /*left:900px;*/
     top: 120px;
-    color: white;
+    /*left: 0;
+    right: 0;*/
     font-size: 50px;
-    border-style: double;
-    border: 2px solid white;
-    padding: 25px;
-    display: block;
-    margin: 0;
+    /*display: block;
+    margin: 0 auto;*/
 }
